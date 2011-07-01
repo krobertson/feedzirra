@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{feedzirra}
-  s.version = "0.0.24"
+  s.version = "0.0.24.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Paul Dix"]
-  s.date = %q{2009-02-19}
+  s.date = %q{2011-02-15}
   s.email = %q{paul@pauldix.net}
   s.files = [
     "lib/core_ext/date.rb",
@@ -24,6 +24,16 @@ Gem::Specification.new do |s|
     "lib/feedzirra/parser/rss_entry.rb",
     "lib/feedzirra/feed_utilities.rb",
     "lib/feedzirra/feed_entry_utilities.rb",
+    "lib/feedzirra/parser/media_rss.rb",
+    "lib/feedzirra/parser/media_rss_content.rb",
+    "lib/feedzirra/parser/media_rss_copyright.rb",
+    "lib/feedzirra/parser/media_rss_embed.rb",
+    "lib/feedzirra/parser/media_rss_embed_param.rb",
+    "lib/feedzirra/parser/media_rss_href.rb",
+    "lib/feedzirra/parser/media_rss_restriction.rb",
+    "lib/feedzirra/parser/media_rss_scheme.rb",
+    "lib/feedzirra/parser/media_rss_text.rb",
+    "lib/feedzirra/parser/media_rss_thumbnail.rb",
     "README.textile", "Rakefile",
     ".rspec",
     "spec/spec_helper.rb",
